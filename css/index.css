@@ -1,0 +1,134 @@
+*:before, *:after {
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+} 
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+	color:black;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    background-image: initial;
+}
+
+#banner {
+	background-color: rgb(201, 245, 248);
+	height: 90px;
+    padding: 30px 50px 50px 155px;
+    text-decoration: none; 
+}
+
+#banner h1 {
+	float: center;
+    margin: 25px;
+    font-size: 50px;
+    margin: 0px 0px 0px 0px;
+    text-shadow: rgb(135, 138, 133) 2px 1px 3px;
+    color: rgb(109, 107, 107);
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+nav ul {
+    text-align: center;
+    background-color: rgba(208, 229, 235, 0.904);
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: black 2px 1px 3px;
+
+}
+
+
+nav ul li {
+	display: inline-block;
+    padding: 0px 10px 0px 5px;
+}
+
+nav ul li a {
+    color: rgb(107, 133, 136);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+#image{
+    float: right;
+    position: relative;   
+}
+
+.conteudo h2 ul li a {
+    color: rgb(107, 133, 136);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: inherit;  
+}
+
+.conteudo h2 ul li{ 
+    display: inline-block;
+    margin: 0px 200px 5px 30px;    
+}
+
+.conteudo h3{
+    font-size:20px;
+    margin: 0px 70px 10px 70px;
+    
+}
+
+
+.cont p {
+	line-height: 2;
+	margin: 0px 70px 30px 70px;
+	text-align: justify;
+    font-size: 15px;
+}
+
+.cont ul li{
+    line-height: 2;
+	margin: 0 70px 0 70px;
+	text-align: justify;
+    font-size: 15px;
+
+}
+
+.conteudo-leis h2 {
+    font-size:25px;
+    margin: 50px 0px 30px 70px;
+}   
+
+
+.conteudo-leis p{
+    line-height: 2;
+	margin: 5px 70px 30px 70px;
+	text-align: justify;
+    font-size: 15px;
+}
+
+.conteudo-leis a {
+    font-weight: bold;
+    color: rgb(128, 128, 221);
+}
+
+#copyright {
+	background-color:rgb(228, 225, 225);
+    padding: 10px 0 10px 0;	
+}
+
+#copyright a {
+	display: block;
+	text-align: center;
+}
+
+#copyright p {
+	font-size: 12px;
+	text-align: center;
+}
+

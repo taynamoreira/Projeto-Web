@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="banner">
+            <!-- aqui o topo da pagina-->
+            <h1>Descomplicando o Autismo</h1>
+
+        </div>
+    </header>
+    
+            
+    <nav>
+        <!-- aqui é barra de navegação -->
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="leis_e_direitos.html">Leis e Direitos</a></li>
+            <li><a href="./html/paracadastro.html">Entre ou Cadastre-se</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="conta">Crie sua conta</h1>
+
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+        
+      <div class="content">
+
+            <!--FORMULÁRIO DE CADASTRO-->
+        
+        <div id="cadastro">
+            <form method="post" action="mailto: taynamoreirapaulo@gmail.com"> 
+            
+            <p> 
+                <label for="nome_cad">Seu nome</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Nome completo" >
+            </p>
+
+            <p><label for="data">Data de nascimento:</label>
+                <input type="date" id="data" placeholder="DD/MM/AA"></p>
+
+            
+            <p> 
+                <label for="email_cad">Seu e-mail</label>
+                <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@gmail.com"> 
+            </p>
+            
+            <p> 
+                <label for="senha_cad">Sua senha</label>
+                <input id="senha_cad" name="senha_cad" required="required" type="password" ><br>
+                (A senha deve conter no mínimo 8 caracteres)
+            </p>
+            
+            <p> 
+                <input type="submit" value="Cadastrar"/> 
+            </p>
+            
+            <p class="link">  
+                Já tem conta?
+                <a href="paralogin.html"> Ir para Login </a>
+            </p>
+            </form>
+        </div>
+
+        <footer>
+            <!-- rodapé da pagina-->
+            <div id="copyright">
+                <p>Todos os direitos reservados para Descomplicando o Autismo &copy; 2020</p>
+            </div>
+        </footer>
+</body>
+</html> 
