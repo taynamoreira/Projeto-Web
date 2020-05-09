@@ -132,6 +132,4 @@ nav ul li a {
 	text-align: center;
 }
 
-@media only sreen and (max-device-width: 300px) {
-	menu { width: 100px }
-}
+
