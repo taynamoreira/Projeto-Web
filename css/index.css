@@ -4,6 +4,10 @@
     font-family: Arial,sans-serif;
 } 
 
+@media only sreen and (max-device-width: 900px) {
+	menu { width: 100px }
+}
+
 nav a:hover{
     text-decoration: underline;
 }
