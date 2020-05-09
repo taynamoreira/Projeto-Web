@@ -4,10 +4,6 @@
     font-family: Arial,sans-serif;
 } 
 
-@media only sreen and (max-device-width: 900px) {
-	menu { width: 100px }
-}
-
 nav a:hover{
     text-decoration: underline;
 }
@@ -136,3 +132,6 @@ nav ul li a {
 	text-align: center;
 }
 
+@media only sreen and (max-device-width: 300px) {
+	menu { width: 100px }
+}
